@@ -22,9 +22,11 @@ This repository is dedicated to mastering the fundamentals of the **Go (Golang)*
 
 ## Go: Install/update Tools > VS Code
 view -> command Palette.
-   > Go: Install/update Tools ![Install/update](./assets/install_update_version.png)
+   > Go: Install/update Tools 
       [x] dlv@lastest
       [x] gopls@latest
+   ![Install/update](./assets/install_update_version.png)
+
 
 # command run go
  go to terminal 
@@ -39,15 +41,20 @@ view -> command Palette.
 - [ ] Structs and Interfaces (Object-Oriented Go)
 - [ ] Concurrency (Go Routines & Channels)
 
-## 🚀 Getting Started
+## 🚀 Git repository
 To run any of the examples locally:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/poommon/go-fundamentals.git
 
-# 2. Commit
-git commit -m "feat: add variables practice and link in readme"
+2. Add push command  
+   # 2.1. เลือกไฟล์ที่จะบันทึก (Stage) 
+   # save stage and use . for defind git readme
+   git add .
 
-# 3. Push
-git push origin main
+   # 2.2 save commit and add description 
+   git commit -m "docs: add images and update roadmap checkboxes"
+
+   # 2.3. ส่งขึ้น GitHub (Push)
+   git push origin main
