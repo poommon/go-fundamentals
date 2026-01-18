@@ -29,9 +29,10 @@ view -> command Palette.
 
 
 # command run go
- go to terminal 
+ go to terminal/go command
    > go run helloworld.go
-
+ The Go Playground
+   > https://go.dev/play/
  
 ## 📚 Learning Roadmap
 - [ ] Variables, Constants, and Basic Types
