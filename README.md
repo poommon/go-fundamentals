@@ -30,18 +30,17 @@ view -> command Palette.
 
 # command run go
  go to terminal/go command
- \`\`\`go
+ ```go
    > go run helloworld.go
-  \`\`\`
+  
 
  The Go Playground
    > https://go.dev/play/
  Add module
-   create folder calculator/mycal/mycal.go 
-   \`\`\`go
-      > go mod init mycalculator
-   \`\`\`
+   create folder calculator/mycal/mycal.go   
    
+ ```go
+go mod init mycalculator
    add command
 
  
