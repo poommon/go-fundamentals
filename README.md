@@ -32,15 +32,16 @@ view -> command Palette.
  go to terminal/go command
  ```go
    > go run helloworld.go
-  
+ ```
 
  The Go Playground
    > https://go.dev/play/
  Add module
    create folder calculator/mycal/mycal.go   
-   
+
  ```go
 go mod init mycalculator
+ ```
    add command
 
  
@@ -52,22 +53,22 @@ go mod init mycalculator
 To run any of the examples locally:
 
 1. Clone the repository:
-   \`\`\`bash
+    ```bash
    git clone https://github.com/poommon/go-fundamentals.git
-   \`\`\`
+   ```
 
 2. Add push command   
    # save stage and use . for defind git readme 
-   \`\`\`bash
+   ```bash
    git add .
-   \`\`\`
+   ```
 
    # 2.2 save commit and add description 
-   \`\`\`bash
+   ```bash
    git commit -m "docs: add images and update roadmap checkboxes"
-   \`\`\`
+   ```
 
    # 2.3. push to github 
-   \`\`\`bash
+   ```bash
    git push origin main
-   \`\`\`
+   ```
