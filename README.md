@@ -36,6 +36,7 @@ view -> command Palette.
 
  The Go Playground
    > https://go.dev/play/
+   
  Add module
    create folder calculator/mycal/mycal.go   
 
