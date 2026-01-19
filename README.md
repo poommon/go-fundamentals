@@ -30,32 +30,45 @@ view -> command Palette.
 
 # command run go
  go to terminal/go command
+ \`\`\`go
    > go run helloworld.go
+  \`\`\`
+
  The Go Playground
    > https://go.dev/play/
+ Add module
+   create folder calculator/mycal/mycal.go 
+   \`\`\`go
+      > go mod init mycalculator
+   \`\`\`
+   
+   add command
+
  
 ## 📚 Learning Roadmap
 - [ ] Variables, Constants, and Basic Types
-- [ ] Control Structures (If, For, Switch)
-- [ ] Data Structures (Arrays, Slices, Maps)
-- [ ] Functions and Pointers
-- [ ] Structs and Interfaces (Object-Oriented Go)
-- [ ] Concurrency (Go Routines & Channels)
+- [ ] Control Structures (If, For, Switch) 
 
 ## 🚀 Git repository
 To run any of the examples locally:
 
 1. Clone the repository:
-   ```bash
+   \`\`\`bash
    git clone https://github.com/poommon/go-fundamentals.git
+   \`\`\`
 
-2. Add push command  
-   # 2.1. เลือกไฟล์ที่จะบันทึก (Stage) 
-   # save stage and use . for defind git readme
+2. Add push command   
+   # save stage and use . for defind git readme 
+   \`\`\`bash
    git add .
+   \`\`\`
 
    # 2.2 save commit and add description 
+   \`\`\`bash
    git commit -m "docs: add images and update roadmap checkboxes"
+   \`\`\`
 
-   # 2.3. ส่งขึ้น GitHub (Push)
+   # 2.3. push to github 
+   \`\`\`bash
    git push origin main
+   \`\`\`
